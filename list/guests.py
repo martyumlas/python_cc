@@ -22,4 +22,4 @@ for guest in guests[:]:
 while(len(guests) > 2):
     unvinted = guests.pop()
     print(f'Sorry {unvinted.title()} I cant invite you anymore')
-
+print(f'I am invinting a total of {len(guests)} people')
